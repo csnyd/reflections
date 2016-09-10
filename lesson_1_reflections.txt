@@ -1,0 +1,61 @@
+Git Commands
+Git Diff <first id commit> <second id commit> (operates on--compares two commits)
+git log --stat (gives statistics about which files have changed in each commit)
+q (stop viewing output)
+git clone (gets you the whole repository).
+git config --global color.ui auto (gets color)
+git checkout <committ id>
+
+Git Notes
+copy and paste, cnt shft c/v in linux, enable quick edit mode
+Git checkout means resetting to a previous
+-Head commit you're currently working on. Detached head state: there are some instructions on how to re commit if you mess with
+a detached hea state.
+Terminal file compare programs:
+Windows: FC <old> <new>
+Linux of git bash: Diff
+
+Other Unix commands:
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+Git Commands
+Git Diff (operates on--compares two commits)
+git log --stat (gives statistics about which files have changed in each commit)
+
+
+Git Notes
+Commit, snapshot of all files in repository
+
+Terminal file compare programs:
+Windows: FC <old> <new>
+Linux of git bash: Diff
+
+Other Unix commands:
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+~ # brings me home
+mv <file to move>
+git config --global core.editor "path to editor -n -w#sets default text editor
+-n means it'll open in a new window, and -w means it'll wait
+
+Reflection: Manual Commit: Manual commits enable logical points in saving, but you have to remember to commit!
+Reflect: Multi-File Commits: Helpful to track inter-related code changes
+Reflect: Using Git to View History: Git log gets my the change keys and notes, Git diff highlights the differences between two commits.
+Reflect: Confidence from Version Control: With version control, I can try changes without worrying about irreversibly damaging the code.
+Reflection: How do you want to use git? For starters, to save the reflections. Then to version control all my code.
