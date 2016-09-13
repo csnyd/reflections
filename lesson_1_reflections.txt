@@ -23,16 +23,21 @@ mkdir reflections             # create reflections directory
 cd reflections                # go to reflections directory
 subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
 
+
 pwd # print working directory - shows what directory you are in
 ls  # list the files in this directory
+ls -a #lists all files and hidden files
 
 Git Commands
 Git Diff (operates on--compares two commits)
 git log --stat (gives statistics about which files have changed in each commit)
+git init # initializes a git repository in a folder
+git status # shows what files have changed since the last commit
 
 
 Git Notes
 Commit, snapshot of all files in repository
+Head--Git's name for the current commit
 
 Terminal file compare programs:
 Windows: FC <old> <new>
