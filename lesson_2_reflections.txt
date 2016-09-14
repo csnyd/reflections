@@ -1,1 +1,8 @@
+git commands:
+git diff # with no arguements compares staging area (the most recent commit) with the working directory.
+git diff --staged #shows differences between things added to the staging area and most recent commit only.
+git reset --hard #discards changes in working directory or staging area. These changes were never commited. 
+
+
 What happens when you initialize a repository? Why do you need to do it? Initializing a repository creates a .git folder in the repository folder.
+How can you use the staging area to make sure you have one commit per logical change? I can use git diff and double check the changes made.
