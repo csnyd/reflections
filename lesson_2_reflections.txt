@@ -15,7 +15,13 @@ git diff # with no arguements compares staging area (the most recent commit) wit
 git diff --staged #shows differences between things added to the staging area and most recent commit only.
 git reset --hard #discards changes in working directory or staging area. These changes were never commited. 
 
+git log --graph --oneline <branch, e.g., master> <branch> #shows the branches
+
+git checkout -b <new branch name> # is like running 2 commands:
+	git branch <new branch name>
+	git checkout new_branch name
 
 What happens when you initialize a repository? Why do you need to do it? Initializing a repository creates a .git folder in the repository folder.
 How can you use the staging area to make sure you have one commit per logical change? I can use git diff and double check the changes made.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help? branches could help with experimental versions of code and help keep track of where I have split off.
+How do the diagrams help you visualize the branch structure? It can help us see detached heads and parent lineage.
