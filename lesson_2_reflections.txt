@@ -1,4 +1,16 @@
 git commands:
+Git Diff (operates on--compares two commits)
+git log --stat (gives statistics about which files have changed in each commit)
+git init # initializes a git repository in a folder
+git status # shows what files have changed since the last commit
+Git Diff <first id commit> <second id commit> (operates on--compares two commits)
+git log --stat (gives statistics about which files have changed in each commit)
+q (stop viewing output)
+git clone (gets you the whole repository).
+git config --global color.ui auto (gets color)
+git checkout <committ id>
+git branch #with nothing else shows the current branches, the 
+* shows which version is checked out.
 git diff # with no arguements compares staging area (the most recent commit) with the working directory.
 git diff --staged #shows differences between things added to the staging area and most recent commit only.
 git reset --hard #discards changes in working directory or staging area. These changes were never commited. 
@@ -6,3 +18,4 @@ git reset --hard #discards changes in working directory or staging area. These c
 
 What happens when you initialize a repository? Why do you need to do it? Initializing a repository creates a .git folder in the repository folder.
 How can you use the staging area to make sure you have one commit per logical change? I can use git diff and double check the changes made.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help? branches could help with experimental versions of code and help keep track of where I have split off.
