@@ -21,15 +21,13 @@ git checkout -b <new branch name> # is like running 2 commands:
 	git branch <new branch name>
 	git checkout new_branch name
 
- git merge --abort
+git merge master <other>
 
- git show <key> shows difference between commit and parent without knowing what the parent was
 
-git branch -d <name of branch> deletes the branch
 
 What happens when you initialize a repository? Why do you need to do it? Initializing a repository creates a .git folder in the repository folder.
 How can you use the staging area to make sure you have one commit per logical change? I can use git diff and double check the changes made.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help? branches could help with experimental versions of code and help keep track of where I have split off.
 How do the diagrams help you visualize the branch structure? It can help us see detached heads and parent lineage.
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do? Merging branches together interleaves all two branches worth of commits. The diagram helps to show parent relationships.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? You have to spend a bit more time conflict resolving, but then you don't have to worry about Git doing something stupid with your code.
