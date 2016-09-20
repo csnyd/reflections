@@ -1,1 +1,4 @@
 git remote #kind of like creating a branch
+
+When would you want to use a remote repository rather than keeping all your work local?
+-working from multiple sites, working with multiple contributors, data backup
