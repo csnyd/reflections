@@ -1,4 +1,10 @@
 git remote #kind of like creating a branch
+remote #a repository on github, you push and pull
+git remote # lists the remote repositories
+git remote -v#verbose
+	shows url where you would fetch and push data 
+get push <remote> <local> sends local stuff to repository
+git config --global credential.helper wincred  #password cache
 
 When would you want to use a remote repository rather than keeping all your work local?
 -working from multiple sites, working with multiple contributors, data backup
